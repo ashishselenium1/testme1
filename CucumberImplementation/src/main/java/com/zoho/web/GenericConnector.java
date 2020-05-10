@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class GenericConnector extends UtilityConnector{
 	
 	
+	
 
 	public void openBrowser(String browserName) {
 		log("**WebConnector openBrowser** "+browserName);
