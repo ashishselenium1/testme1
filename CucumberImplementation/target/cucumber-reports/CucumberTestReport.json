@@ -1,0 +1,932 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4627200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the runmode is Y",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Y",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.checkRunmode(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10001916600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open browser chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2347581000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "navigate to url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 12
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6094000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "title should be home_page_title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home_page_title",
+                  "offset": 16
+                }
+              ],
+              "location": "ValidationSteps.validateTitle(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1127588500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login_link_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_link_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2199027200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I type username_field_id as se.leniumtraining10@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username_field_id",
+                  "offset": 7
+                },
+                {
+                  "val": "se.leniumtraining10@gmail.com",
+                  "offset": 28
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2275441300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on login_button_css",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_button_css",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1402662500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "element password_field_id should be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password_field_id",
+                  "offset": 8
+                }
+              ],
+              "location": "ValidationSteps.validateElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 149151600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I type password_field_id as Whizdom@2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password_field_id",
+                  "offset": 7
+                },
+                {
+                  "val": "Whizdom@2020",
+                  "offset": 28
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139544500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on login_button_css",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_button_css",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6937116600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on crm_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crm_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 174876400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.init(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Creation of Lead",
+        "description": "",
+        "id": "create-and-delete-leads;creation-of-lead",
+        "after": [
+          {
+            "result": {
+              "duration": 424769500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 663325300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on leads_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "leads_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 293229000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on create_lead_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "create_lead_id",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1257389500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on submenu_leads_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "submenu_leads_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 886200200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I type company_id as Microsoft",
+            "match": {
+              "arguments": [
+                {
+                  "val": "company_id",
+                  "offset": 7
+                },
+                {
+                  "val": "Microsoft",
+                  "offset": 21
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156275700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I type lead_lastname_id as Gates",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lead_lastname_id",
+                  "offset": 7
+                },
+                {
+                  "val": "Gates",
+                  "offset": 27
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163421000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on lead_save_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lead_save_id",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 890953100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on back_icon_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "back_icon_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3878396800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "lead with name Gates should be generated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gates",
+                  "offset": 15
+                }
+              ],
+              "location": "ValidationSteps.validateLeadCreation(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Lead"
+          },
+          {
+            "name": "@CreateLead"
+          }
+        ]
+      }
+    ],
+    "name": "Create and Delete Leads",
+    "description": "",
+    "id": "create-and-delete-leads",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/zoho/features/lead.feature",
+    "tags": [
+      {
+        "name": "@Lead",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 562700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.init(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login to Zoho",
+        "description": "",
+        "id": "login-to-zoho;login-to-zoho;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 15780600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 252200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the runmode is Y",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Y",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.checkRunmode(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10670640500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "open browser chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7038410100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "navigate to url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 12
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50753100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "title should be home_page_title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home_page_title",
+                  "offset": 16
+                }
+              ],
+              "location": "ValidationSteps.validateTitle(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 799825500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on login_link_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_link_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2053103200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I type username_field_id as se.leniumtraining10@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username_field_id",
+                  "offset": 7
+                },
+                {
+                  "val": "se.leniumtraining10@gmail.com",
+                  "offset": 28
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1790517200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on login_button_css",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_button_css",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1487819900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "element password_field_id should be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password_field_id",
+                  "offset": 8
+                }
+              ],
+              "location": "ValidationSteps.validateElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 117699000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I type password_field_id as Whizdom@2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password_field_id",
+                  "offset": 7
+                },
+                {
+                  "val": "Whizdom@2020",
+                  "offset": 28
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142293400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on login_button_css",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_button_css",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 352400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "login should be success",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 16
+                }
+              ],
+              "location": "ApplicationSteps.validateLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 352100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.init(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Login to Zoho",
+        "description": "",
+        "id": "login-to-zoho;login-to-zoho;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 6826300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.testng.SkipException: Runmode is N\r\n\tat com.zoho.web.UtilityConnector.skipScenario(UtilityConnector.java:111)\r\n\tat com.zoho.steps.GenericSteps.checkRunmode(GenericSteps.java:46)\r\n\tat ✽.the runmode is N(src/test/resources/com/zoho/features/login.feature:7)\r\n",
+              "duration": 2543100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the runmode is N",
+            "match": {
+              "arguments": [
+                {
+                  "val": "N",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.checkRunmode(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "open browser mozilla",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mozilla",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "navigate to url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 12
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "title should be home_page_title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home_page_title",
+                  "offset": 16
+                }
+              ],
+              "location": "ValidationSteps.validateTitle(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on login_link_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_link_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I type username_field_id as se.len.iumtraining10@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username_field_id",
+                  "offset": 7
+                },
+                {
+                  "val": "se.len.iumtraining10@gmail.com",
+                  "offset": 28
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I click on login_button_css",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_button_css",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "element password_field_id should be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password_field_id",
+                  "offset": 8
+                }
+              ],
+              "location": "ValidationSteps.validateElementPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I type password_field_id as Whizdom@2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password_field_id",
+                  "offset": 7
+                },
+                {
+                  "val": "Whizdom@2020",
+                  "offset": 28
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I click on login_button_css",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_button_css",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "login should be failure",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failure",
+                  "offset": 16
+                }
+              ],
+              "location": "ApplicationSteps.validateLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Zoho",
+    "description": "  I want to use this to Login",
+    "id": "login-to-zoho",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/zoho/features/login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

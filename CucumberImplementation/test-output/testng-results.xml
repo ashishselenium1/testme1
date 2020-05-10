@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">the runmode is Y (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">open browser chrome (PASSED : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">navigate to url (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">title should be home_page_title (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on login_link_xpath (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I type username_field_id as se.leniumtraining10@gmail.com (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on login_button_css (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">element password_field_id should be present (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I type password_field_id as Whizdom@2020 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on login_button_css (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on crm_xpath (PASSED : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on leads_xpath (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on create_lead_id (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on submenu_leads_xpath (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I type company_id as Microsoft (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I type lead_lastname_id as Gates (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on lead_save_id (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on back_icon_xpath (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">lead with name Gates should be generated (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the runmode is Y (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">open browser chrome (PASSED : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">navigate to url (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">title should be home_page_title (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on login_link_xpath (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I type username_field_id as se.leniumtraining10@gmail.com (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on login_button_css (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">element password_field_id should be present (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I type password_field_id as Whizdom@2020 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on login_button_css (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">login should be success (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the runmode is N (SKIPPED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">open browser mozilla (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">navigate to url (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">title should be home_page_title (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on login_link_xpath (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I type username_field_id as se.len.iumtraining10@gmail.com (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on login_button_css (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">element password_field_id should be present (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I type password_field_id as Whizdom@2020 (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on login_button_css (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">login should be failure (SKIPPED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Zoho Test Suite" duration-ms="50057" started-at="2020-05-07T01:44:25Z" finished-at="2020-05-07T01:45:15Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.zoho.runner.CucumberProjectTestngRunnerTest@2f686d1f]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="CucumberProjectTestngRunner" duration-ms="50057" started-at="2020-05-07T01:44:25Z" finished-at="2020-05-07T01:45:15Z">
+      <class name="com.zoho.runner.CucumberProjectTestngRunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.zoho.runner.CucumberProjectTestngRunnerTest@2f686d1f]" name="setUpClass" is-config="true" duration-ms="184" started-at="2020-05-07T01:44:25Z" finished-at="2020-05-07T01:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.zoho.runner.CucumberProjectTestngRunnerTest@2f686d1f]" name="runScenario" duration-ms="30626" started-at="2020-05-07T01:44:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-07T01:44:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creation of Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create and Delete Leads"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">the runmode is Y (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">open browser chrome (PASSED : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">navigate to url (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">title should be home_page_title (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on login_link_xpath (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I type username_field_id as se.leniumtraining10@gmail.com (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on login_button_css (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">element password_field_id should be present (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I type password_field_id as Whizdom@2020 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on login_button_css (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on crm_xpath (PASSED : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on leads_xpath (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on create_lead_id (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on submenu_leads_xpath (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I type company_id as Microsoft (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I type lead_lastname_id as Gates (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on lead_save_id (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on back_icon_xpath (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">lead with name Gates should be generated (PASSED : 1s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.zoho.runner.CucumberProjectTestngRunnerTest@2f686d1f]" name="runScenario" duration-ms="19071" started-at="2020-05-07T01:44:56Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-07T01:45:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to Zoho"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Zoho"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">the runmode is Y (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">open browser chrome (PASSED : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">navigate to url (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">title should be home_page_title (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on login_link_xpath (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I type username_field_id as se.leniumtraining10@gmail.com (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on login_button_css (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">element password_field_id should be present (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I type password_field_id as Whizdom@2020 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on login_button_css (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">login should be success (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="SKIP" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.zoho.runner.CucumberProjectTestngRunnerTest@2f686d1f]" name="runScenario" duration-ms="26" started-at="2020-05-07T01:45:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-07T01:45:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to Zoho"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Zoho"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode is N
+at com.zoho.web.UtilityConnector.skipScenario(UtilityConnector.java:111)
+at com.zoho.steps.GenericSteps.checkRunmode(GenericSteps.java:46)
+at ✽.the runmode is N(src/test/resources/com/zoho/features/login.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">the runmode is N (SKIPPED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">open browser mozilla (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">navigate to url (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">title should be home_page_title (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on login_link_xpath (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I type username_field_id as se.len.iumtraining10@gmail.com (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on login_button_css (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">element password_field_id should be present (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I type password_field_id as Whizdom@2020 (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on login_button_css (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">login should be failure (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zoho.runner.CucumberProjectTestngRunnerTest@2f686d1f]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2020-05-07T01:45:15Z" finished-at="2020-05-07T01:45:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.zoho.runner.CucumberProjectTestngRunnerTest -->
+    </test> <!-- CucumberProjectTestngRunner -->
+  </suite> <!-- Zoho Test Suite -->
+</testng-results>

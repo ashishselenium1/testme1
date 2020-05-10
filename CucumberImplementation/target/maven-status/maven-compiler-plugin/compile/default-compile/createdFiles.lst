@@ -1,0 +1,5 @@
+com\zoho\web\ValidationConnector.class
+com\zoho\web\UtilityConnector.class
+com\zoho\web\GenericConnector.class
+com\zoho\web\WebConnector.class
+com\zoho\web\reports\ExtentManager.class
